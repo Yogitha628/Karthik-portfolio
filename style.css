@@ -339,7 +339,8 @@ p {
 
 /* Skills Section Styles */
 .skills.container {
-    padding: 20px;
+	display: flex;
+	padding: 20px;
 }
 
 .projects-header {
