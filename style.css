@@ -341,11 +341,10 @@ p {
 .skills.container {
 	display: flex;
 	padding: 20px;
-	top: 50px;
 }
 
 .projects-header {
-    margin-top: 30px;
+    top: 30px;
     text-align: center;
 }
  .skills-categories {
