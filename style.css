@@ -59,7 +59,7 @@ p {
 	transition-property: background-color, color;
 }
 .cta:hover {
-	color: white;
+	color: black;
 	background-color: crimson;
 }
 .brand h1 {
