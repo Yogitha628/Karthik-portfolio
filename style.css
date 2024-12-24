@@ -65,7 +65,7 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: white;
+	color: black;
 }
 .brand h1 span {
 	color: crimson;
@@ -170,7 +170,7 @@ p {
 	height: 2px;
 	width: 30px;
 	position: relative;
-	background-color: white;
+	background-color: black;
 	z-index: -1;
 }
 #header .hamburger .bar::after,
@@ -180,7 +180,7 @@ p {
 	height: 100%;
 	width: 100%;
 	left: 0;
-	background-color: white;
+	background-color: black;
 	transition: 0.3s ease;
 	transition-property: top, bottom;
 }
