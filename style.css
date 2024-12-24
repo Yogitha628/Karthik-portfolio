@@ -8,6 +8,10 @@ html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	background-color: #f0f0f0; /* Add this line */ 
+}
+body { 
+	background-color: #f0f0f0; /* Add this line */ 
 }
 a {
 	text-decoration: none;
