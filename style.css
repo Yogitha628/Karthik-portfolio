@@ -59,8 +59,8 @@ p {
 	transition-property: background-color, color;
 }
 .cta:hover {
-	color: black;
-	background-color: black;
+	color: white;
+	background-color: crimson;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -621,7 +621,7 @@ p {
 	}
 	#about .col-right {
 		text-align: left;
-		padding: 30px;
+		padding: 60px;
 	}
 	#about .col-right h1 {
 		text-align: left;
