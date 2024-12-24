@@ -349,35 +349,33 @@ p {
 }
 
 .projects-header {
+	top: 30px;
     text-align: center;
-	margin-bottom: 30px;
 }
  .skills-categories {
 	display: flex;
-	 align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
  }
 
 .skills .skill-category {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+	text-align: center;
     flex-basis: 30%;
 	box-sizing: border-box;
 }
 
 .skills .skill-category h2 {
     color: #ffffff; /* Change the heading color to white */
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 24px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .skills .skill-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    gap: 20px;
 }
 
 .skills .skill-item {
