@@ -366,8 +366,11 @@ p {
 }
 
 .skills .skill-category h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
+    color: #ffffff; /* Change the heading color to white */
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .skills .skill-items {
@@ -457,31 +460,31 @@ p {
 	width: 100%;
 }
 #contact .contact-item {
-	width: 80%;
-	padding: 20px;
-	text-align: center;
-	border-radius: 10px;
-	padding: 30px;
-	margin: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	box-shadow: 0px 0px 5px 0 #0000002c;
-	transition: 0.3s ease box-shadow;
+    border: 2px solid #ffffff; /* Add white border */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background for better visibility */
 }
-#contact .contact-item:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
+
+.contact-item h1 {
+    color: #ffffff; /* Change the heading color to white */
+    margin-left: 10px;
+    font-size: 1.5rem;
 }
+
+.contact-item a {
+    color: #ffffff; /* Change the link color to white */
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
 #contact .icon {
 	width: 70px;
 	margin: 0 auto;
 	margin-bottom: 10px;
-}
-#contact .contact-info h1 {
-	font-size: 2.5rem;
-	font-weight: 500;
-	margin-bottom: 5px;
 }
 #contact .contact-info h2 {
 	font-size: 1.3rem;
