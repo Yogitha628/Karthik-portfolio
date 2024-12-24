@@ -15,6 +15,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: white;
 }
 .container {
 	min-height: 100vh;
@@ -52,8 +53,8 @@ p {
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: white;
-	background-color: white;
+	color: black;
+	background-color: crimson;
 	border: 2px solid crimson;
 	font-size: 2rem;
 	text-transform: uppercase;
@@ -63,13 +64,13 @@ p {
 	transition-property: background-color, color;
 }
 .cta:hover {
-	color: white;
-	background-color: crimson;
+	color: crimson;
+	background-color: white;
 }
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: black;
+	color: white;
 }
 .brand h1 span {
 	color: crimson;
@@ -86,7 +87,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: rgba(0, 0, 0, 0.8);
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -101,7 +102,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: black;
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -133,7 +134,7 @@ p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.021);
+	color: rgba(255, 255, 255, 0.1);
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
